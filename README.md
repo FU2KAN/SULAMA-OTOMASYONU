@@ -30,15 +30,14 @@ Sonuç
 
 ESP8266 ile kurduğum sistem şu an kendi kendine çalışıyor. Her gün akşam 19:11’de otomatik olarak 1 dakika sulama yapıyor. İstersem Blynk uygulamasından tek tuşla uzaktan sulamayı da başlatabiliyorum.
 
-Kısacası artık nerede olursam olayım bitkilerim susuz kalmıyor. 🌱
+Kısacası artık nerede olursam olayım bitkilerim susuz kalmıyor. 
 
-## Devre Şeması
 
 *Bu projeyi yapmak istersen, en önemli kısım bağlantı şeması. Tüm parçaları nasıl bir araya getirdiğimi görmek için aşağıya göz atabilirsin. İki ayrı güç kaynağı kullandım, biri beyin (ESP8266) diğeri kaslar (motorlar) için.
 
 
 
-## Proje Fotoğrafları
+## Proje Fotoğrafları ve Devre Şeması
 
 Sistemin kurulumunu ve görünümünü merak edenler için birkaç kare:
 <img width="1388" height="805" alt="image" src="https://github.com/user-attachments/assets/cf7a8086-3d19-4dff-b83a-98f61f188d51" />
