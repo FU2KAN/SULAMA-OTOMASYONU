@@ -12,9 +12,29 @@ Seyahate çıktığımde yada çalışırken  balkonumda yetiştidiğim bitkiler
 * **Enerji:** 2 adet 5V Adaptör
 * **Damar Yolu:** 6mm şeffaf hortum, damlatma uçları ve damacana su depom
 
+* Projede Karşılaştığım Zorluklar ve Çözümlerim
+
+Bu proje bana şunu öğretti: sadece devre kurmak ya da kod yazmak değil, beklenmedik sorunları pratik çözümlerle aşmak da işin yarısıymış. İşte benim başıma gelen iki sıkıntı ve onları nasıl çözdüğüm:
+
+1. Motorların Debisi Suyu Yukarıya Taşımadı
+
+*İlk denemede motorları damacananın altına koydum, suyu yukarıya basacaklarını düşündüm. Ama 5V’luk motorların debisi yetmedi
+*Çözüm: Motorlara yüklenmek yerine damacanayı rafların en üstüne koyup yer çekimini kullandım.
+
+2. Sifonlama Sorunu
+
+*Damacana yukarıya çıkınca bu sefer de motorlar zaman ayarı olarak çalıştıktan sonra su akmaya devam ediyordu motor kapnadıktan sonra sifonlama oluyordu
+*Çözüm: Hortumun damacananın içindeki kısmına  (1 mm) bir delik açtım. Bu sayede hortuma hava girdi ve akış anında kesildi. Ufak bir delik, problemi çözdü.
+
+Sonuç
+
+ESP8266 ile kurduğum sistem şu an kendi kendine çalışıyor. Her gün akşam 19:11’de otomatik olarak 1 dakika sulama yapıyor. İstersem Blynk uygulamasından tek tuşla uzaktan sulamayı da başlatabiliyorum.
+
+Kısacası artık nerede olursam olayım bitkilerim susuz kalmıyor. 🌱
+
 ## Devre Şeması
 
-Bu projeyi yapmak istersen, en önemli kısım bağlantı şeması. Tüm parçaları nasıl bir araya getirdiğimi görmek için aşağıya göz atabilirsin. İki ayrı güç kaynağı kullandım, biri beyin (ESP8266) diğeri kaslar (motorlar) için.
+*Bu projeyi yapmak istersen, en önemli kısım bağlantı şeması. Tüm parçaları nasıl bir araya getirdiğimi görmek için aşağıya göz atabilirsin. İki ayrı güç kaynağı kullandım, biri beyin (ESP8266) diğeri kaslar (motorlar) için.
 
 
 
